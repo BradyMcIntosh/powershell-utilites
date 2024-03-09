@@ -1,2 +1,7 @@
-# Auto detect text files and perform LF normalization
+# Auto detect text files and normalize line endings.
 * text=auto
+
+# Explicitly set PowerShell files as text with Windows line endings.
+*.ps1   text  eol=crlf
+*.psm1  text  eol=crlf
+*.psd1  text  eol=crlf
