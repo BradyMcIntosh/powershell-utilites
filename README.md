@@ -14,11 +14,24 @@ This is a collection of useful PowerShell utilities.
 
 ## Installation
 
-To install these utilities, simply copy them into your computer.
+powershell-utilities can be installed locally via the following git command:
+
+```bash
+git clone https://github.com/BradyMcIntosh/powershell-utilites.git
+```
+
+Or it can be downloaded in zip format on the [Releases](https://github.com/BradyMcIntosh/powershell-utilites/releases) page.
 
 ## Usage
 
 To use these utilities in a script, import the manifests of the desired modules with Import-Module.
+
+e.g.
+```powershell
+Import-Module -Name yourdirectory\logger\logger.psd1
+```
+
+Your script can then use the cmdlets and functions provided by the imported module. For further information on available modules, see [Features](#features).
 
 ## Features
 
